@@ -1,1 +1,21 @@
+CS6605 - Operating Systems II (Advanced Operating Systems)
+
+This course teaches advanced operating systems concepts. The project involves writing an operating system kernel from scratch. This particular operating system runs on qemu (i386 emulator).
+
+The kernel API includes: 
+* Functions to print to the screen
+* A heap to dynamically allocate memory
+* Threading primatives such as semaphores
+* Multiprocess support using the fork and join threading model
+* Interprocess communication via pipes 
+
+In addition, various examples are included such as:
+* The dining philosphers problem
+* A maze solver that uses A* 
+* A blocking and non-blocking producer-consumer problem
+
+
+Partially based on the tutorial http://www.jamesmolloy.co.uk/tutorial_html/
+
+
 
